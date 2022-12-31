@@ -205,3 +205,5 @@ int FastTransfer(struct mpsse_context *mpsse, char *wdata, char *rdata, int size
 }
 
 
+unsigned char fast_rw_buf[SPI_RW_SIZE + CMD_SIZE];
+
